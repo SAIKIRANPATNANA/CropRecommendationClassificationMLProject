@@ -9,4 +9,5 @@ matplotlib
 streamlit
 lightgbm
 xgboost
-
+requests
+bs4

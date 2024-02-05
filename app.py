@@ -49,6 +49,6 @@ if st.button("Predict Crop"):
                 pred = int(pred)+1
         else: 
                 pred = int(pred)
-        image = Image.open(f"dataset/stuff/{pred}.jpeg")
+        image = Image.open(f"dataset/image_scrap_stuff/{pred}.jpeg")
         caption = labels[pred]
         st.image(image, caption=caption, use_column_width=True)
